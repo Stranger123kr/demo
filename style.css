@@ -47,6 +47,10 @@ a {
   color: var(--para_color);
 }
 
+img {
+  cursor: pointer;
+}
+
 header {
   background: #566c2b;
   padding: 1rem 1rem;
@@ -151,6 +155,12 @@ i {
   padding: 1rem 2rem;
   background: gray;
   font-weight: 600;
+  transition: all 0.3s linear;
+}
+.service_img a:hover {
+  background: var(--para_color);
+  border: red;
+  color: var(--color-primary);
 }
 
 .footer {
